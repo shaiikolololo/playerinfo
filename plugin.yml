@@ -1,0 +1,28 @@
+name: playerinfo
+api: [3.0.0, 4.0.0]
+version: 1.0.0
+main: playerinfo\Main
+load: STARTUP
+author: Shaiiko
+commands:
+  ping:
+    description: " Zeige dir den Ping deiner mit spieler! "
+    usage: "/ping"
+  fly:
+    description: "fly"
+    usage: "/fly"
+  flyoff:
+    description: " Flugmodus Wird Deaktiviert"
+    usage: "/flyoff"
+  playerinfo:
+    description: " Zeigt dir alle informationen zu einem spieler !"
+    usage: "/playerinfo"
+  hackmsg:
+    description: "Erschrecke Einen Spieler!"
+    usage: "/hackmsg"
+permissions:
+  playerinfo.check.op:
+    default: false
+  default.true:
+    default: true
+
